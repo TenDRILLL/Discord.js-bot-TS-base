@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "discord.js": "^14.0.0-dev.1656158629-c4653f9"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "buildrun": "tsc --build && cd build && node ./index.js",
+    "builddeploy": "tsc --build && cd build && node ./deployCommands.js"
+  }
+}
